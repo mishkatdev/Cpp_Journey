@@ -8,7 +8,7 @@ int  main()
 
     srand(time(NULL)); //seed the numbers starting point
 
-    int num = rand() %5 +1; //6 face dice
+    int num = rand() %5 +1;
     
 
     switch(num)
