@@ -7,9 +7,11 @@ int  main()
 
     srand(time(NULL)); //seed the numbers starting point
 
-    int num = rand();
+    int num = rand() %6 +1; //6 face dice
+    int num2 = rand() %6 +1;
+    int num3 = rand() %6 +1;
 
-    cout<< num;
+    cout<< num<<"\n"<<num2<<"\n"<<num3;
 
     return 0;
 
