@@ -16,8 +16,8 @@ while(true)
 {
     
     cout<<"Enter Your Choice: \n"; 
-    cout<<"( r for Rock * p for Paper * s for Scissor ) \n"; 
-    cout<<"Choose x to exit) \n ";
+    cout<<"[ r for Rock * p for Paper * s for Scissor ] \n"; 
+    cout<<"(Choose x to exit) \n ";
     cin>>check;
     cout<<"\n";
 
